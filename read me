@@ -1,0 +1,10 @@
+https://jscalc.io/calc/sgMxEEBT4fjxIIuy
+
+'use strict';
+
+return {
+  tip: inputs.cc  * inputs.vbat * inputs.KV * inputs.pd * .6818 * 3.14 / 720,
+ fs: inputs.cc  * inputs.vbat * inputs.KV *  inputs.Prp * 
+ 60 / 12 / 5280 * inputs.slip
+ 
+};
